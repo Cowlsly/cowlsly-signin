@@ -27,7 +27,7 @@
   },
   "scripts": {
     "client": "react-scripts start",
-    "build": "react-scripts start",
+    "build": "react-scripts build",
     "construct": "webpack --config ./webpack.config.js",
     "builder": "npx concurrently \"npm run build\" \"npm run construct\"",
     "server": "node ./server/server.mjs",
